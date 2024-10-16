@@ -1,0 +1,100 @@
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content {
+    
+    padding: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: white !important; /* Ensure the text is white */
+
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: bold; /* Make text bold */
+    color: black !important; /* Ensure the text is white */
+    padding: 10px 10px !important;
+    
+  }
+  .navbar-nav .nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.499); /* Crvenkasta pozadina (tomato) */
+    color: rgb(255, 255, 255) !important; /* Boja teksta ostaje crna */
+    border-radius: 35px;
+  }
+  .nav-item.active .nav-link {
+    background-color: rgba(0, 0, 0, 0.499); /* Crvenkasta pozadina (tomato) */
+    color: rgb(255, 255, 255) !important; /* Boja teksta ostaje crna */
+    border-radius: 35px;
+  }
+ 
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  .contents {
+    color: rgb(0, 0, 0) ; /* Boja teksta ostaje crna */
+    font-size: 15px; /* Povećanje veličine fonta */
+
+    text-align: center; /* Poravnanje teksta na sredinu */
+    margin: 20px 0; /* Razmak iznad i ispod */
+    /* Dodajte dodatne stilove po potrebi */
+}
+.container{
+    padding: 0 !important; /* Ukloni padding */
+    margin: 0 !important; /* Ukloni marginu */
+}
+.footer {
+    background-color: #111; /* Dark background */
+    color: #fff; /* Light text */
+    font-size: 14px;
+    text-align: center; /* Center text for smaller screens */
+}
+
+.footer-logo {
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    font-size: 20px;
+}
+
+.footer .text-light {
+    color: #bbb;
+}
+
+.footer .text-light:hover {
+    color: #fff;
+}
+
+/* Adjustments for different screen sizes */
+@media (min-width: 768px) {
+    .footer .text-md-left {
+        text-align: left;
+    }
+}
+
+
+
+
+ 
+ 
+  
+  
