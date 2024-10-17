@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #baddf5b7; /* Svetlo plava boja za ceo sajt */
+  margin: 0; /* Ukloni default margine */
+  padding: 0; /* Ukloni default padding */
+}
 .hero-section {
     position: relative;
     text-align: center;
@@ -52,8 +62,8 @@
     margin: 0 !important; /* Ukloni marginu */
 }
 .container-fluid{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 0;
+    margin-right: 0%;
 }
 .footer {
     background-color: #111; /* Dark background */
@@ -103,15 +113,65 @@ html, body {
 
 #mapa {
     padding: 0; /* Remove any padding */
-    margin: 2%; /* Remove any margin */
-    width: 96%; /* Set width to 100% */
+    margin-left: 10%; /* Remove any margin */
+    margin-right: 10%; /* Remove any margin */
+    width: 80%; /* Set width to 100% */
     height: 500px; /* Set desired height */
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
+.centered-text {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', serif;
+  padding: 100px 0;
+}
 
- 
- 
+.centered-text::before, .centered-text::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background-color: teal;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.centered-text::before {
+  top: 0;
+}
+
+.centered-text::after {
+  bottom: 0;
+}
+
+#rowfooter {
+  display: flex;
+  justify-content: center; /* Horizontalno centriranje */
+  align-items: flex-start; /* Vertikalno poravnanje prema vrhu */
+  flex-wrap: wrap; /* Omogućava prelamanje kolona ako nema dovoljno prostora */
+  padding: 20px 0; /* Dodatni padding za margine gore i dole */
+}
+
+#rowfooter .col-md-3 {
+  margin-bottom: 20px; /* Razmak između kolona */
+}
+
+#rowfooter h5 {
+  text-align: center; /* Centriraj naslove unutar svake kolone */
+}
+
+#rowfooter ul, #rowfooter p {
+  text-align: center; /* Centriraj sadržaj unutar kolona */
+}
+
+
   
   
