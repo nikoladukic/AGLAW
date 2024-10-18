@@ -62,11 +62,11 @@
     padding-top: 50px;
 }
 .btn-custom {
-    background-color: #A05A2C;
+    background-color: #2271cc;
     color: #fff;
 }
 .btn-custom:hover {
-    background-color: #8A4D24;
+    background-color: #66f225;
 }
 .center-page {
     display: flex;
