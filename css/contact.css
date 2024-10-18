@@ -1,0 +1,83 @@
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .contact-item {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .contact-item img {
+    width: 50px;
+    
+  }
+  
+  .contact-item h4 {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-item p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-item:not(:last-child) {
+    border-right: 1px solid #00bcd4;
+   
+  }
+}
+  
+ 
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;  /* Centriranje elemenata */
+      justify-content: center;
+  
+    }
+  
+    .contact-item {
+        width: 100%;
+        text-align: center;  /* Ostavimo centriran tekst */
+       
+        border-right: none;  /* Ukloni vertikalne linije */
+        border-bottom: 1px solid #00bcd4;  /* Donja linija između elemenata */
+      }
+    
+      .contact-item:last-child {
+        border-bottom: none;  /* Ukloni donju liniju za poslednju stavku */
+        padding-bottom: 0;
+      }
+  }
+
+.form-container {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+.btn-custom {
+    background-color: #A05A2C;
+    color: #fff;
+}
+.btn-custom:hover {
+    background-color: #8A4D24;
+}
+.center-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+#forma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
