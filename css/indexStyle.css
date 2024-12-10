@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 body {
+  font-family: Arial, sans-serif;
   background-color: #baddf5b7; /* Svetlo plava boja za ceo sajt */
   margin: 0; /* Ukloni default margine */
   padding: 0; /* Ukloni default padding */
+ 
 }
 .hero-section {
     position: relative;
@@ -173,5 +175,57 @@ html, body {
 }
 
 
-  
-  
+
+#about-us {
+  display: flex;
+    align-items: center;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-right: 20px;
+}
+
+.divider {
+  width: 4px;
+  height: 100%;
+  background-color: #009688; /* Izaberi boju koja se uklapa uz dizajn */
+  margin: 0 20px;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.short-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.full-text {
+  font-size: 18px;
+  line-height: 1.6;
+  display: none; /* Skriven tekst po default-u */
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #009688;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #00796b;
+}
