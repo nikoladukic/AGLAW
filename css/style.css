@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #757575;
   text-align: left;
-  background-color: #f4ece0;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
