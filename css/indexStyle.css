@@ -229,3 +229,20 @@ button {
 button:hover {
   background-color: #00796b;
 }
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2; /* Ensure the text is above the overlay */
+}
